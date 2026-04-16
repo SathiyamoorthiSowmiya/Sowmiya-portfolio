@@ -6,7 +6,7 @@
 
  # 🌐 Live Portfolio
  
- 👉 https://ssowmiyaportfolio.netlify.app/
+ 👉 https://sowmiyasportfolio.netlify.app/
 
 # 🚀 Features
 
