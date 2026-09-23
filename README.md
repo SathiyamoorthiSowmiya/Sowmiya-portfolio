@@ -2,8 +2,6 @@
 
 Personal portfolio website of Sowmiya S, a MERN Stack Developer, built to showcase skills, projects, certifications and contact details to recruiters and collaborators.
 
-**Live site:** https://sowmiyasportfolio.netlify.app/
-
 ## Sections
 
 - **About** — background, professional photo and a short summary
