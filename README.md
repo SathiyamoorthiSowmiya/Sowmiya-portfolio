@@ -21,7 +21,7 @@ Personal portfolio website of Sowmiya S, a MERN Stack Developer, built to showca
 | InvenTrack (Inventory Management System) | React, Node, MongoDB, Recharts | [Demo](https://inventory-management-system-fronten-lemon.vercel.app/) | [Frontend](https://github.com/SathiyamoorthiSowmiya/inventory-management-system-frontend) · [Backend](https://github.com/SathiyamoorthiSowmiya/inventory-management-system-backend-) |
 | Food Delivery System | React, Node, Express, MongoDB | [Demo](https://delivery-app-green-two.vercel.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/Delivery-app) |
 | Amazon Clone | React, JavaScript, HTML, CSS | [Demo](https://amazon-clone-six-rouge-85.vercel.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/Amazon-clone) |
-| E-Commerce Website | JavaScript, HTML, CSS | [Demo](https://ecommercewebsites03.netlify.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/E-commerce) |
+| E-Commerce Website | JavaScript, HTML, CSS | [Demo](https://e-commerce-sowmiyas.vercel.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/E-commerce) |
 
 > Backend APIs are hosted on Render's free tier and may take 30–50s to wake up on first request after inactivity.
 
