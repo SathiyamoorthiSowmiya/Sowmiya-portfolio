@@ -18,7 +18,7 @@ Personal portfolio website of Sowmiya S, a MERN Stack Developer, built to showca
 |---|---|---|---|
 | HR Management Dashboard | React, Node, Express, MongoDB | [Demo](https://hrmsphere.netlify.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/Sowmi_Proj) |
 | TuneStream (Music Streaming App) | React, Redux, Node, MongoDB | [Demo](https://musicstremingapp.netlify.app/) | [Frontend](https://github.com/SathiyamoorthiSowmiya/music-streaming-app-frontend) · [Backend](https://github.com/SathiyamoorthiSowmiya/music-streaming-app-backend) |
-| InvenTrack (Inventory Management System) | React, Node, MongoDB, Recharts | [Demo](https://inventrackingsystem.netlify.app/) | [Frontend](https://github.com/SathiyamoorthiSowmiya/inventory-management-system-frontend) · [Backend](https://github.com/SathiyamoorthiSowmiya/inventory-management-system-backend-) |
+| InvenTrack (Inventory Management System) | React, Node, MongoDB, Recharts | [Demo](https://inventorymanagementssystem.netlify.app/) | [Frontend](https://github.com/SathiyamoorthiSowmiya/inventory-management-system-frontend) · [Backend](https://github.com/SathiyamoorthiSowmiya/inventory-management-system-backend-) |
 | Food Delivery System | React, Node, Express, MongoDB | [Demo](https://fooddeliveryappsyst.netlify.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/Delivery-app) |
 | Amazon Clone | React, JavaScript, HTML, CSS | [Demo](https://spectacular-kangaroo-dfe849.netlify.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/Amazon-clone) |
 | E-Commerce Website | JavaScript, HTML, CSS | [Demo](https://ecommercewebsites03.netlify.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/E-commerce) |
