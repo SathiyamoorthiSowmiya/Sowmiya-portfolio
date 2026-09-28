@@ -868,36 +868,6 @@ h2 {
     transform: scale(1.08);
 }
 
-.card-media-icon .project-banner {
-    height: 170px;
-}
-
-.project-banner {
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.project-banner::before {
-    content: '';
-    position: absolute;
-    inset: -50%;
-    background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, .25), transparent 60%);
-}
-
-.project-banner i {
-    font-size: 5rem;
-    color: rgba(255, 255, 255, .95);
-    filter: drop-shadow(0 0 1.2rem rgba(0, 0, 0, .35));
-}
-
-.banner-hr {
-    background: linear-gradient(135deg, #667eea, #764ba2);
-}
-
 .card-body {
     padding: 1.8rem;
 }
