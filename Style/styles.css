@@ -709,7 +709,10 @@ h2 {
 }
 
 .tab-btn {
-    padding: .8rem 2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: .7rem;
+    padding: .9rem 2.2rem;
     border-radius: 3rem;
     border: .15rem solid rgba(255, 255, 255, .15);
     background: rgba(255, 255, 255, .04);
@@ -717,7 +720,12 @@ h2 {
     font-size: 1.4rem;
     font-weight: 600;
     cursor: pointer;
-    transition: transform .3s ease, background .3s ease, border-color .3s ease;
+    transition: transform .3s ease, background .3s ease, border-color .3s ease, box-shadow .3s ease;
+}
+
+.tab-btn i {
+    font-size: 1.2rem;
+    opacity: .8;
 }
 
 .tab-btn:hover {
@@ -729,6 +737,11 @@ h2 {
     background: var(--main-color);
     border-color: var(--main-color);
     color: var(--bg-color);
+    box-shadow: 0 .6rem 1.5rem rgba(89, 178, 244, .35);
+}
+
+.tab-btn.active i {
+    opacity: 1;
 }
 
 /* ---------- Shared badges & tech pills ---------- */
@@ -776,34 +789,38 @@ h2 {
     margin-top: 1.5rem;
 }
 
-.btn {
+.proj-btn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    flex: 1 1 0;
     gap: .6rem;
-    padding: .8rem 1.6rem;
+    padding: .8rem 1.2rem;
     border-radius: 1rem;
     font-size: 1.3rem;
     font-weight: 600;
-    transition: transform .3s ease, box-shadow .3s ease, background .3s ease;
+    white-space: nowrap;
+    transition: transform .3s ease, box-shadow .3s ease, background .3s ease, color .3s ease, border-color .3s ease;
 }
 
-.btn-live {
+.proj-btn-live {
     background: var(--main-color);
     color: var(--bg-color);
 }
 
-.btn-live:hover {
+.proj-btn-live:hover {
     transform: translateY(-.2rem);
     box-shadow: 0 .6rem 1.5rem rgba(89, 178, 244, .4);
 }
 
-.btn-outline {
+.proj-btn-outline {
     background: transparent;
     border: .15rem solid rgba(255, 255, 255, .2);
     color: var(--text-color);
 }
 
-.btn-outline:hover {
+.proj-btn-outline:hover {
+    background: transparent;
     border-color: var(--main-color);
     color: var(--main-color);
     transform: translateY(-.2rem);
@@ -815,6 +832,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    perspective: 1200px;
 }
 
 .project-card-v2 {
@@ -822,13 +840,14 @@ h2 {
     border: .1rem solid rgba(255, 255, 255, .1);
     border-radius: 1.5rem;
     overflow: hidden;
-    transition: transform .4s ease, box-shadow .4s ease, border-color .4s ease;
+    transform-style: preserve-3d;
+    transition: transform .5s cubic-bezier(.22, 1, .36, 1), box-shadow .5s ease, border-color .5s ease;
 }
 
 .project-card-v2:hover {
-    transform: translateY(-.6rem);
+    transform: translateY(-.8rem) rotateX(6deg) rotateY(-4deg) scale(1.03);
     border-color: var(--main-color);
-    box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, .4);
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, .45);
 }
 
 .card-media {
