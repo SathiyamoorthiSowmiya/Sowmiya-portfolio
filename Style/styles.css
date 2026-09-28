@@ -833,6 +833,10 @@ h2 {
     background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
 }
 
+.banner-weather {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
 .banner-youtube {
     background: linear-gradient(135deg, #ff9a9e, #fecfef);
 }

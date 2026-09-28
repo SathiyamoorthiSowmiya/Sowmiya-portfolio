@@ -23,6 +23,7 @@ Personal portfolio website of Sowmiya S, a MERN Stack Developer, built to showca
 | Food Delivery System | React, Node, Express, MongoDB | [Demo](https://delivery-app-green-two.vercel.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/Delivery-app) |
 | Amazon Clone | React, JavaScript, HTML, CSS | [Demo](https://amazon-clone-six-rouge-85.vercel.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/Amazon-clone) |
 | E-Commerce Website | JavaScript, HTML, CSS | [Demo](https://e-commerce-sowmiyas.vercel.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/E-commerce) |
+| Skycast (Weather Forecast App) | JavaScript, HTML, CSS | [Demo](https://weather-app-six-xi-11.vercel.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/Weather-App-) |
 
 > Backend APIs are hosted on Render's free tier and may take 30–50s to wake up on first request after inactivity.
 
@@ -31,7 +32,7 @@ Personal portfolio website of Sowmiya S, a MERN Stack Developer, built to showca
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Libraries:** Font Awesome, ScrollReveal.js, Typed.js
 - **Form handling:** Formspree
-- **Hosting:** Netlify
+- **Hosting:** Vercel (Netlify for HR Management Dashboard)
 
 ## Contact
 
