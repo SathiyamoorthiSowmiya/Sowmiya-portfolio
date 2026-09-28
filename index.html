@@ -201,209 +201,167 @@
         <section class="project" id="project">
 
             <h2 class="heading">My <span>Projects</span></h2>
+            <p class="project-intro">A selection of projects I've built using modern web technologies.</p>
 
-            <h3 class="project-subheading">MERN Stack Projects</h3>
-            <p class="project-subtext">Frontend + Backend + Database</p>
-            <div class="project-container project-container-featured">
-                <div class="project-box project-box-featured">
+            <div class="project-tabs">
+                <button class="tab-btn active" data-filter="all">All</button>
+                <button class="tab-btn" data-filter="fullstack">Full Stack</button>
+                <button class="tab-btn" data-filter="frontend">Frontend</button>
+            </div>
+
+            <!-- Featured project -->
+            <div class="featured-project" data-category="fullstack">
+                <div class="featured-media">
                     <div class="project-banner banner-hr">
                         <i class="fa-solid fa-users"></i>
-                        <span class="banner-tag">HR Dashboard</span>
-                    </div>
-                    <div class="project-layer">
-                        <h4>HR MANAGEMENT DASHBOARD</h4>
-                        <p>Manages employee records, attendance and roles with a React dashboard backed by a Node/Express + MongoDB API.</p>
-
-                        <div class="tech-stack">
-                            <span>React</span>
-                            <span>Node</span>
-                            <span>Express</span>
-                            <span>MongoDB</span>
-                        </div>
-
-                        <div class="project-links">
-                            <a class="link-live" href="https://hrmsphere.netlify.app/" target="_blank" title="Live Demo (Frontend)">
-                                <i class="fa-solid fa-up-right-from-square"></i>
-                            </a>
-                            <a class="link-be" href="https://sowmi-proj.onrender.com/" target="_blank" title="Backend Live (API)">
-                                <i class="fa-solid fa-server"></i>
-                            </a>
-                            <a class="link-repo" href="https://github.com/SathiyamoorthiSowmiya/Sowmi_Proj" target="_blank" title="GitHub Repo (Frontend + Backend)">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
-
-                <div class="project-box project-box-featured">
-                    <div class="project-banner banner-music">
-                        <i class="fa-solid fa-headphones-simple"></i>
-                        <span class="banner-tag">TuneStream</span>
+                <div class="featured-info">
+                    <div class="badge-row">
+                        <span class="badge badge-star"><i class="fa-solid fa-star"></i> Featured Project</span>
+                        <span class="badge badge-fullstack">Full Stack</span>
                     </div>
-                    <div class="project-layer">
-                        <h4>MUSIC STREAM APP</h4>
-                        <p>Browse, search and stream songs, build playlists, like tracks and comment — with a persistent player.</p>
-
-                        <div class="tech-stack">
-                            <span>React</span>
-                            <span>Redux</span>
-                            <span>Node</span>
-                            <span>MongoDB</span>
-                        </div>
-
-                        <div class="project-links">
-                            <a class="link-live" href="https://music-streaming-app-frontend-ten.vercel.app/" target="_blank" title="Live Demo">
-                                <i class="fa-solid fa-up-right-from-square"></i>
-                            </a>
-                            <a class="link-fe" href="https://github.com/SathiyamoorthiSowmiya/music-streaming-app-frontend" target="_blank" title="Frontend Repo">
-                                <i class="fa-solid fa-code"></i>
-                            </a>
-                            <a class="link-be" href="https://github.com/SathiyamoorthiSowmiya/music-streaming-app-backend" target="_blank" title="Backend Repo">
-                                <i class="fa-solid fa-server"></i>
-                            </a>
-                        </div>
+                    <h3>HR Management Dashboard</h3>
+                    <p>Manages employee records, attendance and roles with a React dashboard backed by a Node/Express + MongoDB API.</p>
+                    <div class="tech-pills">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>MongoDB</span>
                     </div>
-                </div>
-
-                <div class="project-box project-box-featured">
-                    <div class="project-banner banner-inventory">
-                        <i class="fa-solid fa-boxes-stacked"></i>
-                        <span class="banner-tag">InvenTrack</span>
-                    </div>
-                    <div class="project-layer">
-                        <h4>INVENTORY MANAGEMENT SYSTEM</h4>
-                        <p>Tracks products by category, logs every stock in/out move and flags low stock on a live dashboard.</p>
-
-                        <div class="tech-stack">
-                            <span>React</span>
-                            <span>Charts</span>
-                            <span>Node</span>
-                            <span>MongoDB</span>
-                        </div>
-
-                        <div class="project-links">
-                            <a class="link-live" href="https://inventory-management-system-fronten-lemon.vercel.app/" target="_blank" title="Live Demo">
-                                <i class="fa-solid fa-up-right-from-square"></i>
-                            </a>
-                            <a class="link-fe" href="https://github.com/SathiyamoorthiSowmiya/inventory-management-system-frontend" target="_blank" title="Frontend Repo">
-                                <i class="fa-solid fa-code"></i>
-                            </a>
-                            <a class="link-be" href="https://github.com/SathiyamoorthiSowmiya/inventory-management-system-backend-" target="_blank" title="Backend Repo">
-                                <i class="fa-solid fa-server"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-box project-box-featured">
-                    <div class="project-banner banner-delivery">
-                        <i class="fa-solid fa-utensils"></i>
-                        <span class="banner-tag">Delivery App</span>
-                    </div>
-                    <div class="project-layer">
-                        <h4>FOOD DELIVERY SYSTEM</h4>
-                        <p>Admin + User roles with cart, order tracking, approval workflow and a dark-mode dashboard.</p>
-
-                        <div class="tech-stack">
-                            <span>React</span>
-                            <span>Node</span>
-                            <span>Express</span>
-                            <span>MongoDB</span>
-                        </div>
-
-                        <div class="project-links">
-                            <a class="link-live" href="https://delivery-app-green-two.vercel.app/" target="_blank" title="Live Demo (Frontend)">
-                                <i class="fa-solid fa-up-right-from-square"></i>
-                            </a>
-                            <a class="link-be" href="https://delivery-app-vi4w.onrender.com/" target="_blank" title="Backend Live (API)">
-                                <i class="fa-solid fa-server"></i>
-                            </a>
-                            <a class="link-repo" href="https://github.com/SathiyamoorthiSowmiya/Delivery-app" target="_blank" title="GitHub Repo (Frontend + Backend)">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                        </div>
+                    <div class="card-links">
+                        <a class="btn btn-live" href="https://hrmsphere.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+                        <a class="btn btn-outline" href="https://sowmi-proj.onrender.com/" target="_blank"><i class="fa-solid fa-server"></i> Backend</a>
+                        <a class="btn btn-outline" href="https://github.com/SathiyamoorthiSowmiya/Sowmi_Proj" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
                     </div>
                 </div>
             </div>
 
-            <h3 class="project-subheading">Frontend Projects</h3>
-            <p class="project-subtext">Client-side only — no backend or database</p>
-            <div class="project-container project-container-featured">
-                <div class="project-box project-box-featured">
-                    <div class="project-banner banner-amazon">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <span class="banner-tag">Amazon Clone</span>
-                    </div>
-                    <div class="project-layer">
-                        <h4>AMAZON CLONE</h4>
-                        <p>Multi-vendor shopping platform with product listings, cart and category browsing.</p>
+            <!-- Project grid -->
+            <div class="project-grid">
 
-                        <div class="tech-stack">
+                <div class="project-card-v2" data-category="fullstack">
+                    <div class="card-media">
+                        <img src="img/screenshots/tunestream.png" alt="TuneStream music streaming app">
+                    </div>
+                    <div class="card-body">
+                        <span class="badge badge-fullstack">Full Stack</span>
+                        <h4>TuneStream</h4>
+                        <p>Browse, search and stream songs, build playlists, like tracks and comment — with a persistent player.</p>
+                        <div class="tech-pills">
                             <span>React</span>
-                            <span>JS</span>
-                            <span>Html</span>
-                            <span>Css</span>
+                            <span>Redux</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
                         </div>
-
-                        <div class="project-links">
-                            <a class="link-live" href="https://amazon-clone-six-rouge-85.vercel.app/" target="_blank">
-                                <i class="fa-solid fa-up-right-from-square"></i>
-                            </a>
-                            <a class="link-repo" href="https://github.com/SathiyamoorthiSowmiya/Amazon-clone" target="_blank">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
+                        <div class="card-links">
+                            <a class="btn btn-live" href="https://music-streaming-app-frontend-ten.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+                            <a class="btn btn-outline" href="https://github.com/SathiyamoorthiSowmiya/music-streaming-app-frontend" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-box project-box-featured">
-                    <div class="project-banner banner-ecommerce">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                        <span class="banner-tag">E-Commerce</span>
+                <div class="project-card-v2" data-category="fullstack">
+                    <div class="card-media">
+                        <img src="img/screenshots/inventrack.png" alt="InvenTrack inventory dashboard">
                     </div>
-                    <div class="project-layer">
-                        <h4>E-COMMERCE WEBSITE</h4>
+                    <div class="card-body">
+                        <span class="badge badge-fullstack">Full Stack</span>
+                        <h4>InvenTrack</h4>
+                        <p>Tracks products by category, logs every stock in/out move and flags low stock on a live dashboard.</p>
+                        <div class="tech-pills">
+                            <span>React</span>
+                            <span>Charts</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="card-links">
+                            <a class="btn btn-live" href="https://inventory-management-system-fronten-lemon.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+                            <a class="btn btn-outline" href="https://github.com/SathiyamoorthiSowmiya/inventory-management-system-frontend" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card-v2" data-category="fullstack">
+                    <div class="card-media card-media-icon">
+                        <div class="project-banner banner-delivery">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <span class="badge badge-fullstack">Full Stack</span>
+                        <h4>Delivery App</h4>
+                        <p>Admin + User roles with cart, order tracking, approval workflow and a dark-mode dashboard.</p>
+                        <div class="tech-pills">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="card-links">
+                            <a class="btn btn-live" href="https://delivery-app-green-two.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+                            <a class="btn btn-outline" href="https://github.com/SathiyamoorthiSowmiya/Delivery-app" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card-v2" data-category="frontend">
+                    <div class="card-media">
+                        <img src="img/screenshots/amazon-clone.png" alt="Amazon Clone homepage">
+                    </div>
+                    <div class="card-body">
+                        <span class="badge badge-frontend">Frontend</span>
+                        <h4>Amazon Clone</h4>
+                        <p>Multi-vendor shopping platform with product listings, cart and category browsing.</p>
+                        <div class="tech-pills">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="card-links">
+                            <a class="btn btn-live" href="https://amazon-clone-six-rouge-85.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+                            <a class="btn btn-outline" href="https://github.com/SathiyamoorthiSowmiya/Amazon-clone" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card-v2" data-category="frontend">
+                    <div class="card-media">
+                        <img src="img/screenshots/ecommerce.png" alt="E-commerce fashion storefront">
+                    </div>
+                    <div class="card-body">
+                        <span class="badge badge-frontend">Frontend</span>
+                        <h4>E-Commerce Website</h4>
                         <p>Fashion & accessories storefront with product galleries and a responsive shopping layout.</p>
-
-                        <div class="tech-stack">
+                        <div class="tech-pills">
                             <span>JavaScript</span>
-                            <span>Html</span>
-                            <span>Css</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
                         </div>
-
-                        <div class="project-links">
-                            <a class="link-live" href="https://e-commerce-sowmiyas.vercel.app/" target="_blank">
-                                <i class="fa-solid fa-up-right-from-square"></i>
-                            </a>
-                            <a class="link-repo" href="https://github.com/SathiyamoorthiSowmiya/E-commerce" target="_blank">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
+                        <div class="card-links">
+                            <a class="btn btn-live" href="https://e-commerce-sowmiyas.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+                            <a class="btn btn-outline" href="https://github.com/SathiyamoorthiSowmiya/E-commerce" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-box project-box-featured">
-                    <div class="project-banner banner-weather">
-                        <i class="fa-solid fa-cloud-sun"></i>
-                        <span class="banner-tag">Skycast</span>
+                <div class="project-card-v2" data-category="frontend">
+                    <div class="card-media">
+                        <img src="img/screenshots/skycast.png" alt="Skycast weather app">
                     </div>
-                    <div class="project-layer">
-                        <h4>WEATHER FORECAST APP</h4>
+                    <div class="card-body">
+                        <span class="badge badge-frontend">Frontend</span>
+                        <h4>Skycast</h4>
                         <p>Live weather by city search or geolocation, with a 6-day forecast and condition-based theming.</p>
-
-                        <div class="tech-stack">
+                        <div class="tech-pills">
                             <span>JavaScript</span>
-                            <span>Html</span>
-                            <span>Css</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
                         </div>
-
-                        <div class="project-links">
-                            <a class="link-live" href="https://weather-app-six-xi-11.vercel.app/" target="_blank">
-                                <i class="fa-solid fa-up-right-from-square"></i>
-                            </a>
-                            <a class="link-repo" href="https://github.com/SathiyamoorthiSowmiya/Weather-App-" target="_blank">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
+                        <div class="card-links">
+                            <a class="btn btn-live" href="https://weather-app-six-xi-11.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+                            <a class="btn btn-outline" href="https://github.com/SathiyamoorthiSowmiya/Weather-App-" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
