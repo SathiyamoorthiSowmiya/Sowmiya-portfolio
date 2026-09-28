@@ -743,11 +743,6 @@ h2 {
     font-weight: 600;
 }
 
-.badge-star {
-    background: rgba(255, 205, 86, .15);
-    color: #ffcd56;
-}
-
 .badge-fullstack {
     background: rgba(89, 178, 244, .15);
     color: var(--main-color);
@@ -756,13 +751,6 @@ h2 {
 .badge-frontend {
     background: rgba(192, 132, 252, .15);
     color: #c084fc;
-}
-
-.badge-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .8rem;
-    margin-bottom: 1.2rem;
 }
 
 .tech-pills {
@@ -819,43 +807,6 @@ h2 {
     border-color: var(--main-color);
     color: var(--main-color);
     transform: translateY(-.2rem);
-}
-
-/* ---------- Featured project ---------- */
-
-.featured-project {
-    display: grid;
-    grid-template-columns: 1.1fr 1fr;
-    gap: 3rem;
-    align-items: center;
-    background: rgba(255, 255, 255, .03);
-    border: .1rem solid rgba(255, 255, 255, .1);
-    border-radius: 2rem;
-    padding: 2.5rem;
-    margin-bottom: 3rem;
-    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, .3);
-}
-
-.featured-media {
-    border-radius: 1.5rem;
-    overflow: hidden;
-    height: 280px;
-}
-
-.featured-media .project-banner {
-    height: 100%;
-}
-
-.featured-info h3 {
-    font-size: 2.6rem;
-    margin: 0 0 1rem;
-}
-
-.featured-info p {
-    color: var(--text-color);
-    opacity: .8;
-    font-size: 1.4rem;
-    line-height: 1.6;
 }
 
 /* ---------- Project grid ---------- */
@@ -926,10 +877,6 @@ h2 {
 
 .banner-hr {
     background: linear-gradient(135deg, #667eea, #764ba2);
-}
-
-.banner-delivery {
-    background: linear-gradient(135deg, #84fab0, #8fd3f4);
 }
 
 .card-body {
@@ -1254,10 +1201,6 @@ h3 {
 
     .project {
         padding-bottom: 7rem;
-    }
-
-    .featured-project {
-        grid-template-columns: 1fr;
     }
 
     .project-grid {

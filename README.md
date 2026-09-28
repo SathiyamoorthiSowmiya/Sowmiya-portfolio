@@ -20,7 +20,6 @@ Personal portfolio website of Sowmiya S, a MERN Stack Developer, built to showca
 | HR Management Dashboard | React, Node, Express, MongoDB | [Demo](https://hrmsphere.netlify.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/Sowmi_Proj) |
 | TuneStream (Music Streaming App) | React, Redux, Node, MongoDB | [Demo](https://music-streaming-app-frontend-ten.vercel.app/) | [Frontend](https://github.com/SathiyamoorthiSowmiya/music-streaming-app-frontend) · [Backend](https://github.com/SathiyamoorthiSowmiya/music-streaming-app-backend) |
 | InvenTrack (Inventory Management System) | React, Node, MongoDB, Recharts | [Demo](https://inventory-management-system-fronten-lemon.vercel.app/) | [Frontend](https://github.com/SathiyamoorthiSowmiya/inventory-management-system-frontend) · [Backend](https://github.com/SathiyamoorthiSowmiya/inventory-management-system-backend-) |
-| Food Delivery System | React, Node, Express, MongoDB | [Demo](https://delivery-app-green-two.vercel.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/Delivery-app) |
 | Amazon Clone | React, JavaScript, HTML, CSS | [Demo](https://amazon-clone-six-rouge-85.vercel.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/Amazon-clone) |
 | E-Commerce Website | JavaScript, HTML, CSS | [Demo](https://e-commerce-sowmiyas.vercel.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/E-commerce) |
 | Skycast (Weather Forecast App) | JavaScript, HTML, CSS | [Demo](https://weather-app-six-xi-11.vercel.app/) | [GitHub](https://github.com/SathiyamoorthiSowmiya/Weather-App-) |

@@ -55,7 +55,7 @@ certFilterBtns.forEach(btn => {
 
 /*================================= project filter tabs ===================================*/
 let projectTabBtns = document.querySelectorAll('.project-tabs .tab-btn');
-let projectItems = document.querySelectorAll('.featured-project, .project-card-v2');
+let projectItems = document.querySelectorAll('.project-card-v2');
 
 projectTabBtns.forEach(btn => {
     btn.onclick = () => {
@@ -106,7 +106,7 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .skills-container, .project-card-v2, .featured-project', {origin:'botton' });
+ScrollReveal().reveal('.home-img, .skills-container, .project-card-v2', {origin:'botton' });
 ScrollReveal().reveal('.home-content h1, .about-img, .resume-preview, .cert-featured-card:nth-child(1), .contact-info', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content, .resume-actions, .cert-featured-card:nth-child(2), .contact form', { origin: 'right' });
 
